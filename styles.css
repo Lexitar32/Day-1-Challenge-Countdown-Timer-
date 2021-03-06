@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@400;600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 body {
   background: url(./bg.jpg) no-repeat center center/cover;
   min-height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Laila', sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -80,6 +80,7 @@ h1 {
 
   h1 {
     font-size: 22px;
+    font-weight: bold;
   }
 
   .box {
@@ -93,13 +94,21 @@ h1 {
 
 @media (max-width: 375px) {
   h1 {
-    font-size: 17px;
+    font-size: 20px;
+  }
+
+  .countdown-container {
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .box {
+    margin: 2px;
   }
 }
 
 @media (max-width: 320px) {
   h1 {
-    font-size: 10px;
+    font-size: 17px;
   }
 
   .big-text {
