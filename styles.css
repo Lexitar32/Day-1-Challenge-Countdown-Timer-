@@ -75,19 +75,19 @@ h1 {
 @media (max-width: 425px) {
   body {
     margin: auto;
-    max-width: 80%;
+    max-width: 60%;
   }
 
   h1 {
-    font-size: 19px;
+    font-size: 22px;
   }
 
   .box {
-    padding: 20px;
+    padding: 13px;
   }
 
   .big-text {
-    font-size: 55px;
+    font-size: 35px;
   }
 }
 
