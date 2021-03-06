@@ -22,10 +22,9 @@ h1 {
 }
 
 .countdown-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
   text-align: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .box {
