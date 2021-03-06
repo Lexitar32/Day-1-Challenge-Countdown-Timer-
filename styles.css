@@ -5,13 +5,14 @@
 }
 
 body {
-  background: url(./bg.png) no-repeat center center/cover;
+  background: url(./bg.jpg) no-repeat center center/cover;
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
 }
 
 h1 {
@@ -27,6 +28,10 @@ h1 {
   justify-content: center;
 }
 
+/* .box {
+
+} */
+
 .big-text {
   font-weight: bold;
   font-size: 6rem;
@@ -34,7 +39,7 @@ h1 {
   margin: 1rem 2rem;
 }
 
-.cl span {
+.box span {
   font-size: 1.5rem;
 }
 
@@ -47,7 +52,7 @@ h1 {
     font-size: 3.5rem;
   }
 
-  .cl span {
+  .box span {
     font-size: 1.2rem;
   }
 }
@@ -82,7 +87,7 @@ h1 {
     font-size: 2.0rem;
   }
 
-  .cl span {
+  .box span {
     font-size: 1.0rem;
   }
 }

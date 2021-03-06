@@ -5,7 +5,7 @@ const minutesCount = document.getElementById("mins");
 const secondsCount = document.getElementById("seconds");
 
 // Get the End Date
-const endDate = "Dec 31, 2021 11:59:59";
+const endDate = "Jan 1, 2022";
 
 const challengeCountDown = () => {
   const challengeEndDate = new Date(endDate).getTime(); // End Date
