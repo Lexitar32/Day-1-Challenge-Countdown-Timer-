@@ -94,6 +94,7 @@ h1 {
 
 @media (max-width: 375px) {
   h1 {
+    margin-top: 20px;
     font-size: 17px;
   }
 
