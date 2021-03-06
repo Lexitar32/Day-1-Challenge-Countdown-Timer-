@@ -28,9 +28,13 @@ h1 {
   justify-content: center;
 }
 
-/* .box {
-
-} */
+.box {
+  border: 1px solid #ccc;
+  margin: 10px;
+  background-color: #ccc;
+  color: black;
+  border-radius: 5px;
+}
 
 .big-text {
   font-weight: bold;
